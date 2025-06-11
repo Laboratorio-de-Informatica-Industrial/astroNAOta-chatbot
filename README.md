@@ -33,12 +33,8 @@ Este design desacoplado permite que o projeto seja flexível, escalável e facil
 
 ```
 AstroNAOta-Project/
-├── 📁 Artigos/
-│   └── 📄 artigo_inova_2025.docx   # Documentação de pesquisa do projeto
 ├── 📁 cliente_nao/
 │   └── 📜 nao_apenas_fala.py        # Script para ser executado no robô NAOv6
-├── 📁 datasets/
-│   └── 📄 dataset_astronomia.jsonl  # Exemplos que guiaram a engenharia de prompts
 ├── 📁 servidor_ia/
 │   └── 📜 servidor_astro.py        # Script principal do servidor (Flask + Vosk + Gemini)
 ├── .gitignore
